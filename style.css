@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  background: #050505;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* WebGL */
+#webgl {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+/* Sections */
+.section {
+  height: 100vh;
+  width: 100%;
+  padding: 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.section h1 {
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 700;
+}
+
+.section p {
+  font-size: 1.2rem;
+  opacity: 0.75;
+  max-width: 420px;
+  margin-top: 1rem;
+}
+
+/* cores leves pra referência */
+.section-1 { background: transparent; }
+.section-2 { background: transparent; }
+.section-3 { background: transparent; }
